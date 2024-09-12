@@ -1,0 +1,11 @@
+C:\GIT\TempLogger\TempLogger\bin\Debug\TempLogger.exe.config
+C:\GIT\TempLogger\TempLogger\bin\Debug\TempLogger.exe
+C:\GIT\TempLogger\TempLogger\bin\Debug\TempLogger.pdb
+C:\GIT\TempLogger\TempLogger\obj\Debug\TempLogger.csproj.AssemblyReference.cache
+C:\GIT\TempLogger\TempLogger\obj\Debug\TempLogger.csproj.SuggestedBindingRedirects.cache
+C:\GIT\TempLogger\TempLogger\obj\Debug\TempLogger.Form1.resources
+C:\GIT\TempLogger\TempLogger\obj\Debug\TempLogger.Properties.Resources.resources
+C:\GIT\TempLogger\TempLogger\obj\Debug\TempLogger.csproj.GenerateResource.cache
+C:\GIT\TempLogger\TempLogger\obj\Debug\TempLogger.csproj.CoreCompileInputs.cache
+C:\GIT\TempLogger\TempLogger\obj\Debug\TempLogger.exe
+C:\GIT\TempLogger\TempLogger\obj\Debug\TempLogger.pdb
