@@ -80,6 +80,8 @@ namespace TempLogger
                         {
                             lblTemp1.Text = partes[1];
                             lblTemp2.Text = partes[2];
+                            lblTemp3.Text = partes[3];
+                            lblTemp4.Text = partes[4];
                         }));
                         break;
                     case 2: //Status da conexão
@@ -87,7 +89,23 @@ namespace TempLogger
                         {
                             lblConexao.Invoke(new Action(() =>
                             {
-                                lblConexao.Text = "Conectado";
+                                lblConexao.Text = "Serial - ON";
+                                TempoConexa0 = 0;
+                            }));
+                        }
+                        if (partes[2] == "1")
+                        {
+                            lblWifi.Invoke(new Action(() =>
+                            {
+                                lblWifi.Text = "WiFi Conectado";
+                                TempoConexa0 = 0;
+                            }));
+                        }
+                        else
+                        {
+                            lblWifi.Invoke(new Action(() =>
+                            {
+                                lblWifi.Text = "WiFi Desconectado";
                                 TempoConexa0 = 0;
                             }));
                         }
@@ -240,8 +258,19 @@ namespace TempLogger
             TempoConexa0++;
             if(TempoConexa0 > 20)
             {
-                lblConexao.Text = "Desconectado";
+                lblConexao.Text = "Serial - OFF";
+                lblWifi.Text = "WiFi Desconectado";
             }
+        }
+
+        private void lblConexao_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }
